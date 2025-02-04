@@ -22,7 +22,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode(of = "id")
-public class Tasks implements Serializable {
+public class Task implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
